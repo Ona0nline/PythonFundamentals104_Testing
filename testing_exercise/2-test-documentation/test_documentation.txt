@@ -1,0 +1,8 @@
+Test Documentation
+
+Exercise:
+    1. Create a 'README.md' file at the root of this folder.
+    2. In the 'README.md' file write test documentation 
+    3. for all the unit tests you created in the "Unit Testing" exercise.
+    4. Describe the test cases and expected results.
+    5. Create a simple test plan outlining the scenarios your tests cover.
