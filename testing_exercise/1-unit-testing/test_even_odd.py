@@ -16,13 +16,15 @@ import unittest
 from number_operations import is_even  # This is the non-existent function
 
 class TestEvenOdd(unittest.TestCase):
-    def test_even_number():
+    def test_even_number(self):
         result = is_even(4)
         self.assertEqual(result, False)
 
-    def test_odd_number():
+    def test_odd_number(self):
         result = is_even(7)
-        assertEqual(result, True)
+        self.assertEqual(result, True)
 
 if __name__ == '__main__':
     unittest.main()
+
+# NB to call the assertEqual method on self as we are in a class

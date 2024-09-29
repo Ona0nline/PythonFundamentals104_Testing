@@ -15,7 +15,7 @@ import unittest
 from math_operations import add_numbers  # This is the non-existent function
 
 class TestAddition(unittest.TestCase):
-    def test_add_positive_numbers():
+    def test_add_positive_numbers(self):
         result = add_numbers(3, 4)
         self.assertEqual(result, 17)
 
